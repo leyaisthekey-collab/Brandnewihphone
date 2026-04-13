@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #000000, #434343);
+            text-align: center;
+            color: white;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            color: gold;
+        }
+        .phone-img {
+            width: 250px;
+            margin: 15px;
+            border-radius: 20px;
+        }
+        .btn {
+            background-color: gold;
+            color: black;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🎉 Congratulations! 🎉</h1>
+    <p>You won a brand new iPhone 17 Pro Max!</p>
+
+    <img src="https://powermaccenter.com/cdn/shop/files/IMG-18066212_m_jpeg_1_74596ba7-3db5-4ec2-ae86-6fde898ff3bc.jpg?v=1757470736" class="phone-img">
+
+    <br><br>
+
+    <button class="btn" onclick="showWarning()">
+        Claim Now
+    </button>
+</div>
+
+<script>
+function showWarning() {
+    let fakeInput = prompt("⚠️ Example Scam: Never enter your credit card number on random websites!");
+
+    alert("This was a demo. Real giveaway scams try to steal your information.\n\nAlways verify websites and NEVER share sensitive data.");
+}
+</script>
+
+</body>
+</html>
